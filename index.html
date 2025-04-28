@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerador de Paleta de Cores</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎨 Gerador de Paleta de Cores</h1>
+
+<textarea id="colorCodes" placeholder="Cole os códigos aqui, separados por espaço, vírgula ou quebra de linha..."></textarea><br>
+
+<button onclick="gerarPaleta()">Gerar Paleta</button>
+<button onclick="baixarPaleta()">Baixar PNG</button>
+<button onclick="copiarCodigos()">Copiar Códigos</button>
+<button onclick="baixarTXT()">Baixar TXT</button>
+
+<div id="palette"></div>
+
+<canvas id="canvas" style="display:none;"></canvas>
+
+<footer>
+  © 2025 Eunice de Faria. Todos os direitos reservados.
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

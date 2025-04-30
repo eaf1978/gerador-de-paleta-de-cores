@@ -33,10 +33,10 @@ function gerarPaleta() {
   const palette = document.getElementById('palette');
   palette.innerHTML = '';
 
-  palette.style.gridTemplateColumns = 'repeat(10, 1fr)';
+  palette.style.gridTemplateColumns = 'repeat(8, 1fr)';
 
   const canvas = document.getElementById('canvas');
-  const blocosPorLinha = 10;
+  const blocosPorLinha = 8;
   const blocoLargura = 100;
   const blocoAltura = 100;
 
